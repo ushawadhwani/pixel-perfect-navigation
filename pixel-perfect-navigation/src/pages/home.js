@@ -1,12 +1,12 @@
 import React, { Component } from "react";
+import WalletDetails from "../components/walletDetails";
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-        Home page
-        <a href="/screen2">Confirm</a>
-      </div>
+      <section class="container">
+        <WalletDetails />
+      </section>
     );
   }
 }
