@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-import WalletDetails from "../components/walletDetails";
+import MoreDetails from "../components/MoreDetails";
 
 export default class Home extends Component {
   render() {
     return (
-      <section class="container">
-        <WalletDetails />
-      </section>
+      <body class="screen1-bg">
+        <div class="blue-graphic">
+          <section class="container">
+            <MoreDetails />
+          </section>
+        </div>
+      </body>
     );
   }
 }

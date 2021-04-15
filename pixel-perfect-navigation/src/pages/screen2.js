@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import WalletDetails from "../components/WalletDetails";
 
 export default class Screen2 extends Component {
   render() {
     return (
-      <div>
-        Screen2
-        <a href="/home">Home</a>
+      <div class="screen2-container">
+        <WalletDetails />
       </div>
     );
   }

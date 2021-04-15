@@ -3,7 +3,7 @@
 }
 html {
   text-align: center;
-  background-image: -webkit-linear-gradient(150deg, #ff0000 50%, #0000ff 50%);
+  background-image: -webkit-linear-gradient(150deg, #f6346e 50%, #21336d 50%);
   height: 100%;
   font-size: 16px;
 }
@@ -46,4 +46,78 @@ html {
   width: 80vmin;
   margin: 20px auto;
   box-shadow: 4px 4px 6px var(--shadow-color);
+}
+
+.screen2-container {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: calc(100vh - 56px);
+}
+.screen2-container .user-profile-box {
+  width: 90%;
+  max-width: 1000px;
+  padding: 15px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.screen2-container .user-profile-section {
+  margin: 40px 80px;
+  display: flex;
+  align-items: center;
+}
+.screen2-container .user-profile-section img {
+  border-radius: 100%;
+  height: 120px;
+}
+.screen2-container .user-profile-details {
+  margin-left: 30px;
+}
+.screen2-container .user-profile-name {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.screen2-container .user-profile-sign {
+  font-size: 20px;
+}
+.screen2-container .user-profile-wallet-details {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px 40px;
+  margin: 40px 50px;
+}
+.screen2-container .user-profile-wallet-details h2 {
+  margin-bottom: 20px;
+}
+.screen2-container .user-profile-wallet-details .label {
+  font-weight: bold;
+  font-size: 18px;
+}
+.screen2-container .user-profile-wallet-details .value {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+}
+.screen2-container .user-profile-controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 80px;
+}
+.screen2-container .user-profile-controls .btn {
+  background-color: #21336d;
+  color: #fff;
+  border: solid 2px #fff;
+  font-size: 24px;
+  font-weight: normal;
+  border-radius: 25px;
+  display: inherit;
+  padding: 6px 30px;
+}
+.screen2-container .user-profile-controls .btn:hover {
+  background-color: #f6346e;
 }
